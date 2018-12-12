@@ -218,13 +218,55 @@ input[type=submit] {
 }
 
 @media screen and (max-width:980px) {
-
+  .main-section {
+    float: left;
+    width: 75%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
 }
 
 @media screen and (max-width:768px) {
-
+  .main-section {
+    float: left;
+    width: 99%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  .auth-image {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+  }
 }
 
 @media screen and (max-width:640px) {
-
+  nav {
+    clear: both;
+    margin: 0 auto;
+  }
+  
+  .main-section {
+    float: left;
+    width: 99%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  .auth-image {
+    float: left;
+    width: 99%;
+    height: auto;
+    margin-top: 5%;
+  }
 }
